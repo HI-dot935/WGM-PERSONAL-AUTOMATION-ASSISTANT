@@ -155,7 +155,13 @@ VOICE_RATE  = 178         # words per minute  (160 = measured, 190 = brisk)
 OPENROUTER_URL    = "https://openrouter.ai/api/v1/chat/completions"
 
 # Tried in order — auto-falls back if one is rate-limited or down
-OPENROUTER_MODELS = "qwen/qwen3-8b:free"
+OPENROUTER_MODELS = [
+    "qwen/qwen3-8b:free",             # primary
+    "meta-llama/llama-3.3-70b-instruct:free",  # fallback 1
+    "google/gemma-3-27b-it:free",     # fallback 2
+    "mistralai/mistral-7b-instruct:free",      # fallback 3
+    "openrouter/auto",                # last resort — OpenRouter picks anything available
+]
    
 
 
