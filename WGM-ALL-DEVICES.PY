@@ -76,6 +76,20 @@ import pyjokes
 
 import requests
 
+# ── Universal Python version compatibility shim ───────────────────────────────
+# Python 3.13 removed aifc, audioop, sunau, chunk (PEP 594).
+# Python 3.9–3.12 already have them — the shim only kicks in when missing.
+# Safe to run on ANY Python version (3.9, 3.10, 3.11, 3.12, 3.13+).
+import sys as _sys
+import types as _types
+
+for _mod_name in ("aifc", "audioop", "sunau", "chunk"):
+    try:
+        __import__(_mod_name)          # already exists — do nothing
+    except ImportError:
+        _sys.modules[_mod_name] = _types.ModuleType(_mod_name)   # stub it
+# ──────────────────────────────────────────────────────────────────────────────
+
 import speech_recognition as sr
 
 import wikipedia
