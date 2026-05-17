@@ -3331,8 +3331,41 @@ if __name__ == "__main__":
 
                 break
 
-    except KeyboardInterrupt:
+    except KeyboardInterrupt:  
 
         speak("Interrupted. Goodbye, sir.")
 
         sys.exit(0)
+
+# 
+#
+#
+#
+#
+#
+#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
