@@ -1806,7 +1806,138 @@ def get_wifi():
 
 MAC_APPS = {
 
-    # Browsers
+    # Creative / Recording
+
+    "garageband":            "GarageBand",
+
+    "garage band":           "GarageBand",
+
+    "imovie":                "iMovie",
+
+    "i movie":               "iMovie",
+
+    "logic pro":             "Logic Pro",
+
+    "logicpro":              "Logic Pro",
+
+    "final cut":             "Final Cut Pro",
+
+    "davinci resolve":       "DaVinci Resolve",
+
+    "davinci":               "DaVinci Resolve",
+
+    "audacity":              "Audacity",
+
+    "handbrake":             "HandBrake",
+
+    # Utilities
+
+    "alfred":                "Alfred",
+
+    "raycast":               "Raycast",
+
+    "bartender":             "Bartender 4",
+
+    "cleanmymac":            "CleanMyMac X",
+
+    "amphetamine":           "Amphetamine",
+
+    "magnet":                "Magnet",
+
+    "rectangle":             "Rectangle",
+
+    "paste":                 "Paste",
+
+    "dropzone":              "Dropzone 4",
+
+    "istatmenus":            "iStatMenus",
+
+    "1password":             "1Password 7",
+
+    "bitwarden":             "Bitwarden",
+
+    "protonvpn":             "ProtonVPN",
+
+    "nordvpn":               "NordVPN",
+
+    "tunnelbear":            "TunnelBear",
+
+    "little snitch":         "Little Snitch",
+
+
+    # Dev extras
+
+    "tableplus":             "TablePlus",
+
+    "sequel pro":            "Sequel Pro",
+
+    "proxyman":              "Proxyman",
+
+    "insomnia":              "Insomnia",
+
+    "fork":                  "Fork",
+
+    "tower":                 "Tower",
+
+    "working copy":          "Working Copy",
+
+    "transmit":              "Transmit 5",
+
+    "cyberduck":             "Cyberduck",
+
+    "filezilla":             "FileZilla",
+
+    "docker":                "Docker",
+
+    "sublime":               "Sublime Text",
+
+    "sublime text":          "Sublime Text",
+
+    "atom":                  "Atom",
+
+    "nova":                  "Nova",
+
+    "cursor":                "Cursor",
+
+    # Office extras
+
+    "onenote":               "Microsoft OneNote",
+
+    "one note":              "Microsoft OneNote",
+
+    "teams":                 "Microsoft Teams",
+
+    "todo":                  "Microsoft To Do",
+
+    "bear":                  "Bear",
+
+    "craft":                 "Craft",
+
+    "ulysses":               "Ulysses",
+
+    "ia writer":             "iA Writer",
+
+    "typora":                "Typora",
+
+    "goodlinks":             "GoodLinks",
+
+    "reeder":                "Reeder 5",
+
+    "netnewswire":           "NetNewsWire",
+
+    # Communication extras
+
+    "beeper":                "Beeper",
+
+    "caprine":               "Caprine",
+
+    "ferdi":                 "Ferdi",
+
+    "airmail":               "Airmail 5",
+
+    "spark":                 "Spark",
+
+    "mimestream":            "Mimestream",
 
     "safari":                "Safari",
 
