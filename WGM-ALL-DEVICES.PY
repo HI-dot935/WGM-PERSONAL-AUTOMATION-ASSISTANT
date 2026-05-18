@@ -1947,7 +1947,10 @@ MAC_APPS = {
 
 
 WEBSITES = {
-     "jio cinema":       "https://jiocinema.com",
+
+     #GOOGLE SITES 
+
+    "jio cinema":       "https://jiocinema.com",
 
     "jiocinema":        "https://jiocinema.com",
 
