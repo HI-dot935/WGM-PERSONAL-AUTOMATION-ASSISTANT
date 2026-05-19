@@ -9,6 +9,7 @@ SpeechRecognition~=3.10.4   # microphone input
 requests~=2.31.0             # web search + AI + weather
 wikipedia~=1.4.0             # Wikipedia lookups
 pyjokes==0.6.0               # jokes
+psutil~=5.9.0                # battery (cross-platform)
 pyttsx3~=2.90                # TTS on Windows & Linux
 
 # ── MICROPHONE BACKEND ────────────────────────────────
