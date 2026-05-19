@@ -206,7 +206,7 @@ OPENROUTER_API_KEY = "your-api-key"
 ## 4️⃣ Run the Assistant
 
 ```bash id="vbxuvv"
-python WGM-ALL-DEVICES.py
+python wgm_all_devices.py 
 ```
 
 ---
