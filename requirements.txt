@@ -1,8 +1,22 @@
-#REQUIREMENTS
-pyautogui~=0.9.54
-SpeechRecognition~=3.10.4
-requests~=2.31.0
-wikipedia~=1.4.0
-pyjokes==0.6.0
-pyttsx3~=2.90
-pyaudio~=0.2.14
+# WGM — AI Voice Assistant
+# Requirements for Windows · macOS · Linux
+# Install: pip install -r requirements.txt
+#
+# ── LINUX ONLY (run these FIRST before pip install) ──────────
+#   sudo apt update
+#   sudo apt install portaudio19-dev python3-pyaudio espeak ffmpeg
+#
+# ── macOS ONLY (run these FIRST) ─────────────────────────────
+#   brew install portaudio
+#
+# ── WINDOWS ──────────────────────────────────────────────────
+#   No pre-steps needed. pip install handles everything.
+# ─────────────────────────────────────────────────────────────
+
+requests>=2.28.0
+wikipedia>=1.4.0
+pyjokes>=0.6.0
+pyttsx3>=2.90
+SpeechRecognition>=3.10.0
+pyaudio>=0.2.13
+pyautogui>=0.9.53
