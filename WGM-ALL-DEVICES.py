@@ -16,11 +16,13 @@
 
 HOW TO RUN:
 
-  1. Paste your OpenRouter key on the line below (OPENROUTER_API_KEY)
+  1. Paste your OpenRouter key in the line 114 (OPENROUTER_API_KEY)
 
-  2. pip install -r requirements.txt
+  2. Set your default city in line 122
 
-  3. python jarvis.py
+  3. pip install -r requirements.txt
+
+  4. python WGM-ALL-DEVICES.py
 
 
 
